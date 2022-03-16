@@ -2,7 +2,7 @@
     <div class="bg-lighter py-5">
         <div class="container">
             <h3 class="mb-4 text-lg">
-                Latest Blogs
+                Latest Blogs s
             </h3>
 
             <div class="row">
@@ -33,7 +33,7 @@
         methods: {
             loadBlogs() {
                 axios.get(
-                    '/api/blog/latest?limit=7',
+                    '/api/blog/latest?limit=3',
                 ).then(response => {
                     this.blogs = response.data;
                 }).catch(e => {
