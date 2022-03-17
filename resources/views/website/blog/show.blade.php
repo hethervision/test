@@ -34,6 +34,14 @@
         <p class="py-4">
             {{ $blog->main_content }}
         </p>
+
+        @if($blog->additional_content)
+        <p class="py-4">
+            {{ $blog->additional_content }}
+        </p>
+        @endif
+
+
     </div>
 
     <featured-blogs></featured-blogs>

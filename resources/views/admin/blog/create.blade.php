@@ -176,6 +176,23 @@
                                         type="text"
                                     >{{ old('main_content') }}</textarea>
                                 </div>
+
+                                    <div class="form-group">
+                                        <label
+                                            for="additional_content"
+                                            class="form-control-label"
+                                        >
+                                            Additional Content
+                                        </label>
+                                        <textarea
+                                            id="additional_content"
+                                            class="form-control"
+                                            name="additional_content"
+                                            required
+                                            rows="5"
+                                            type="text"
+                                        >{{ old('additional_content') }}</textarea>
+                                    </div>
                             </div>
                             <!-- Card footer -->
                             <div class="card-footer py-4 text-right">
