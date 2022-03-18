@@ -2,7 +2,7 @@
     <div class="bg-lighter py-5">
         <div class="container">
             <h3 class="mb-4 text-lg">
-                Latest Blogs s
+                Latest Blogs
             </h3>
 
 

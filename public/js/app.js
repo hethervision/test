@@ -59563,7 +59563,7 @@ var render = function() {
   return _c("div", { staticClass: "bg-lighter py-5" }, [
     _c("div", { staticClass: "container" }, [
       _c("h3", { staticClass: "mb-4 text-lg" }, [
-        _vm._v("\n            Latest Blogs s\n        ")
+        _vm._v("\n            Latest Blogs\n        ")
       ]),
       _vm._v(" "),
       _c(
