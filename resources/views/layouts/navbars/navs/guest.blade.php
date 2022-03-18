@@ -32,6 +32,9 @@
                     <a class="nav-link nav-link-icon" href="/blog">
                         <span class="nav-link-inner--text">{{ __('Blog Posts') }}</span>
                     </a>
+                    <a class="nav-link nav-link-icon" href="/what-our-customers-say-about-us">
+                        <span class="nav-link-inner--text">{{ __('Reviews') }}</span>
+                    </a>
                 </li>
             </ul>
         </div>
