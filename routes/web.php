@@ -32,4 +32,12 @@ Route::group([
         'update',
         'store'
     ]);
+    Route::resource('testimonial', \App\Http\Controllers\Admin\TestimonialController::class)->only([
+        'create',
+        'edit',
+        'index',
+        'update',
+        'store'
+    ]);
+
 });
