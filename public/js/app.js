@@ -59539,6 +59539,8 @@ var render = function() {
       _vm._v(
         "\n            " +
           _vm._s(_vm.testimonial.first_name) +
+          " " +
+          _vm._s(_vm.testimonial.last_name) +
           " | " +
           _vm._s(_vm._f("prettyDate")(_vm.testimonial.created_at)) +
           "\n    "
