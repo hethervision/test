@@ -23,4 +23,8 @@
             ></testimonial-card-row>
         @endforeach
     </div>
+
+    <latest-blogs lposts="9"></latest-blogs>
+
+
 @endsection

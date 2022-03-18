@@ -5,6 +5,8 @@
                 Latest Blogs s
             </h3>
 
+
+
             <div class="row">
                 <div
                     v-for="blog in blogs"
@@ -20,6 +22,12 @@
 <script>
     import BlogCard from "./BlogCard";
     export default {
+        props: {
+            lposts: {
+                default: 3,
+                type: Number
+            }
+        },
         name: "LatestBlogs",
         components: {BlogCard},
         data() {
@@ -33,7 +41,7 @@
         methods: {
             loadBlogs() {
                 axios.get(
-                    '/api/blog/latest?limit=3',
+                    '/api/blog/latest?limit=' + this.lposts,
                 ).then(response => {
                     this.blogs = response.data;
                 }).catch(e => {

@@ -47,5 +47,5 @@
 
 
     <featured-blogs></featured-blogs>
-    <latest-blogs></latest-blogs>
+    <latest-blogs ></latest-blogs>
 @endsection
