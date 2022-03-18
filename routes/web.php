@@ -16,6 +16,7 @@ Route::get('/', function () {
 
 Route::get('/blog', [\App\Http\Controllers\Website\BlogController::class, 'index']);
 Route::get('/blog/{blog:slug}', [\App\Http\Controllers\Website\BlogController::class, 'show']);
+Route::get('/what-our-customers-say-about-us', [\App\Http\Controllers\Website\TestimonialController::class, 'index']);
 
 
 /** Admin Routes */

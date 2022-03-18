@@ -5,7 +5,7 @@
         </p>
 
         <small class="block mt-auto text-center">
-                {{ testimonial.user_name }} | {{ testimonial.created_at | prettyDate }}
+                {{ testimonial.first_name }} {{ testimonial.last_name }} | {{ testimonial.created_at | prettyDate }}
         </small>
 
         <div class="d-flex justify-content-center align-items-center mt-3">
